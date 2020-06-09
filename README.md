@@ -108,3 +108,6 @@ flutter create my_app
 ## 12. Run Debugger in VSCode
 
 You should now be setup to start edit
+
+###### Flutter Setup readme initially forked from [Brad Traversy's gist](https://gist.github.com/bradtraversy/f1af78251962bb210c2ebe5b4f9a5c35) ######
+
