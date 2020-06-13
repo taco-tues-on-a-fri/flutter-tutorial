@@ -6,13 +6,13 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final wordPair = 
+    final wordPair = WordPair.random();
     return MaterialApp(
       theme: ThemeData(primaryColor: Colors.purple),
       home: Scaffold(
         appBar: AppBar(title: Text('WordPair Generator')),
         body: Center(
-          child: Text('Taco Time')
+          child: Text(wordPair.asPascalCase)
         )
       )
     );
